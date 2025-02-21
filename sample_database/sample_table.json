@@ -1,0 +1,22 @@
+{
+	"Word": "JavaScript",
+	"File system": "List",
+	"record_1": "value",
+	"record_2": "value",
+	"Host": "Word",
+	"Folder": "File system",
+	"Directory": "List",
+	"Tables": "List",
+	"List": "Folder",
+	"Random": "Host",
+	"Records": "Files",
+	"Keys": "Databases",
+	"JavaScript": "Tables",
+	"Databases": "Tables",
+	"Programming": "Host",
+	"Notation": "Keys",
+	"Files": "Notation",
+	"Object": "List",
+	"Value": "Files",
+	"Python": "Object"
+}
