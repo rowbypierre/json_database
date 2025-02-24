@@ -11,11 +11,9 @@ enhance the module's functionalities.
 The provided modules will allow users to create:
 + Database(s) using the host's file system to save data. 
 
-+ Record(s) existing as key value pairs within tables existing as files adhering to JavaScript Object Notation format.
++ Record(s) existing as key value pairs within tables existing as files adhering to JavaScript Object Notation (JSON) format.
 
 Note: Program includes function to store and retrieve Python class instances as a record value.
-
-A database exist as a directory containing one or more tables (JSON formatted files).
 
 ## Getting Started
 
@@ -86,19 +84,19 @@ __Database table__:
       ```
 
 3. Manage database:
-   1. Clone.
+   1. Clone database.
       ``` python
       # Copy database.
       copy_database_path = os.path.join(os.getcwd(), 'sample_database_copy')
       sample_database.copy_database(copy_database_path=copy_database_path)
       ```
-   2. Delete.
+   2. Delete database.
       ``` python
       # Delete database.
       delete_database_path = os.path.join(os.getcwd(), 'new_database_directory')
       sample_database.delete_database(delete_database_path)
       ```
-   3. Rename.
+   3. Rename database.
       ``` python
       # Rename database.
       sample_database.rename_database(new_database_name='sample_database_renamed')
@@ -218,7 +216,7 @@ __Database table__:
    table_keys = sample_table.get_all_keys()
    print(table_keys)
    ```
-+ Create python dictionary containing all table records.
++ Create Python dictionary containing all table records.
    ``` python 
   # Create dictionary.
   table_dictionary = sample_table.table_to_dictionary()
@@ -245,3 +243,8 @@ __Database table__:
    table_record_count = sample_table.count_records()
    print(table_record_count)
    ```
+
+## Contributing
+
+---
+If you're interested in improving the code or adding new features, please fork the repository and submit a pull request. All contributions are welcomed!
